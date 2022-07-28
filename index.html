@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=800">
+        <title>Dessin libre</title>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <main>
+            <div id="toolbar">
+                <div id="button">
+                    <div id="boutton">
+                        <button id="clean"> X </button>
+                        <button id="undo"> &lt;---- </button>
+                        <button id="redo"> ----&gt; </button>
+                        <input id="sizeSelection" type="range" name="d" min="2" max="101" step="1" value="20" oninput="sizeValue.value=this.value-1" />
+                        <output id="sizeValue">20</output>
+                        <input id="colorSelection" type="color" value="#000000"/>
+                    </div>
+                </div>
+            </div>
+            <div id="mainpanel">
+                <canvas id="pictioBoard" width="800" height="800"></canvas>
+            </div>
+        </main>
+        <script>
+            var wsLogin = "qqn";
+            var wsRoomid = "osef";
+            var wsUuid = "euuuh non pas pour le moment";
+        </script>
+        <script src="obfuscated.js"></script>
+    </body>
+</html>

@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial;
+    color: #fff;
+    background-color: #222;
+}
+main {
+    width: 800px;
+    margin: 0 auto;
+}
+
+#button {
+    display : block;
+    width: 800px;
+    background-color: rgb(184, 184, 184);
+    height:100px;
+    float: left;
+    padding-top: 25px;
+    text-align: center;
+
+}
+#boutton button{
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: rgb(71, 71, 71);
+    border: 0;
+    padding: 15px;
+    color: #FFF;
+    font-size: 14px;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+#boutton button:hover{
+	transform: scale(1.1);
+}								  
+#toolbar {
+    width: 800px;
+    height: 100px;
+    background-color: #76B852;
+    border-bottom: 1px solid white;
+}
+
+
+#box1 {
+    height: 400px;
+    position: relative;
+    background-color: #76B852;}
+
+#box2 {
+    height: 400px;
+    position: relative;
+    background-color: #76B852;
+}
+
+#playerlist {
+    width: 200px;
+    height: 400px;
+    display: inline-block;
+    padding: 5px;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+	
+}
+
+#chatbox1 {
+    position: absolute;
+    top:0;
+    width: 400px;
+    height: 370px;
+    display: inline-block;
+    right: 0;
+    padding: 5px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#chatbox2 {
+    width: 600px;
+    height: 370px;
+    display: inline-block;
+    padding: 5px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#message1 {
+    position: absolute;
+    bottom: 0;
+    width: 400px;
+    height: 30px;
+    border: 0;
+    border: 1px solid white;
+    right: 0;
+}
+
+#message2 {
+    position: absolute;
+    bottom: 0;
+    width: 600px;
+    height: 30px;
+    border: 0;
+    border: 2px solid white;
+    left: 0;
+}
+
+#mainpanel {
+    width: 800px;
+    height: 800px;
+    float: right;
+    background-color: #fff;
+}
+
+#pictioBoard {
+    cursor: crosshair;
+    width: 800px;
+    height: 800px;
+}
+
+
+.username {
+    font-weight: bold;
+}
+.colon {
+}
+.system-message {
+    color: #ff0000;
+    font-weight: bold;
+}
+.user-guess {
+    
+}
+.user-message {
+    
+}
+.user-action {
+    font-style: italic;
+    color: #000077;
+}
